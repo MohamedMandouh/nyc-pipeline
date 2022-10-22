@@ -1,4 +1,4 @@
-Project for Data Engineering ZoomCamp
+Project for [Data Engineering ZoomCamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
 
 <image src= "https://user-images.githubusercontent.com/41024902/197347200-7d2e46b2-644f-4f8f-bc7a-05a70faf5519.png" width =20 height= 20> Terraform   
   Step 1: Create the required GCP infrastructure using Terraform.  
