@@ -1,0 +1,14 @@
+With T as (
+SELECT DISTINCT * FROM
+ `zoom-camp-me.yellow_taxi.new_yellow_trips` 
+ where EXTRACT(month FROM pickup_datetime) =3
+ and EXTRACT (day FROM pickup_datetime ) = 2
+) 
+
+SELECT
+EXTRACT (hour FROM pickup_datetime) as hour ,
+start_zone,
+ROUND (SUM(total_amount)) as total,
+COUNT(*) as trips
+FROM T
+group by hour, start_zone

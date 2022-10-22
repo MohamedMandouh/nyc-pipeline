@@ -1,0 +1,70 @@
+{
+ "type" : "record",
+ "name" : "Avro",
+ "fields" : [
+    {
+     "name" : "pickup_datetime",
+     "type" : "string"
+    },
+   {
+     "name" : "dropoff_datetime",
+     "type" : "string"
+   },
+   {
+     "name" : "passenger_count",
+     "type" : "long"
+   },
+   {
+     "name" : "trip_distance",
+     "type" : "double"
+   },
+   {
+     "name" : "start_location_id",
+     "type" : "long"
+   },
+   {
+     "name" : "end_location_id",
+     "type" : "long"
+   },
+   {
+     "name" : "payment_type",
+     "type" : "long"
+   },
+   {
+     "name" : "fare_amount",
+     "type" : "double"
+   },
+   {
+     "name" : "extra",
+     "type" : "double"
+   },
+   {
+     "name" : "mta_tax",
+     "type" : "double"
+   },
+   {
+     "name" : "tip_amount",
+     "type" : "double"
+   },
+   {
+     "name" : "tolls_amount",
+     "type" : "double"
+   },
+   {
+     "name" : "improvement_surcharge",
+     "type" : "double"
+   },
+   {
+     "name" : "total_amount",
+     "type" : "double"
+   },
+   {
+     "name" : "congestion_surcharge",
+     "type" : "double"
+   },
+   {
+    "name" : "airport_fee",
+    "type" : "double"
+   }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "type" : "record",
+ "name" : "Avro",
+ "fields" : [
+    {
+     "name" : "pickup_datetime",
+     "type" : "string"
+    }
+  ]
+}
